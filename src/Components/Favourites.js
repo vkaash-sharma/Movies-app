@@ -51,11 +51,24 @@ export default class Favourites extends Component {
         })
       }
 
-
+  handleCurrGenre = (genre) => [
+    this.setState({
+      currGenre: genre
+    })
+  ]
 
 
   render() {
     let genreId={28:'Action',12:'Adventure',16:'Animation',35:'Comedy',80:'Crime',99:'Documentary',18:'Drama',10751:'Family',14:'Fantasy',36:'History', 27:'Horror',10402:'Music',9648:'Mystery',10749:'Romance',878:'Sci-Fi',10770:'TV',53:'Thriller',10752:'War',37:'Western'}
+    
+    let filteredMovies = [];
+    if(this.state.currGenre !="All Genre") {
+      filteredMovies = this.state.movies.filter(
+        (movieObj) => genreId[movieObj.genre_ids[0]] == this.state.currGenre
+      );
+    }
+    else filteredMovies = this.state.movies; 
+   
     return (
         <div class="row">
             <div class="col-3 favourites-list">
@@ -65,7 +78,7 @@ export default class Favourites extends Component {
               <li class="list-group-item active" aria-current="true">
                 {genre}
                 </li> :
-                <li class="list-group-item" aria-current="true">
+                <li class="list-group-item" aria-current="true"  onClick={() => this.handleCurrGenre(genre)}>
                 {genre}
               </li>
             ))}
@@ -88,7 +101,7 @@ export default class Favourites extends Component {
                 </tr>
               </thead>
               <tbody>
-                {this.state.movies.map((movieObj) => (
+                {filteredMovies.map((movieObj) => (
                   <tr>
                     <td scope="row">
                       <img
