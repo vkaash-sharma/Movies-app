@@ -12,12 +12,12 @@ At the top of the pae we have navbar which consist of to part one is home page s
 
 # ADDING MOVIES LIST TO FAVOURITE AREA
 
-![1659379471687](image/README/1659379471687.png)
+![1659379471687](1659379471687.png)
 
 When we hover over the card containing the information about numerous movies, a button displaying add to favourites and remove from favourites buttons appear, respectively....
 
 # FAVOURITES AREA
 
-![1659379666233](image/README/1659379666233.png)
+![1659379666233](1659379666233.png)
 
 The one we prefer is this. We may arrange the movies by genre, and if you'd prefer, you can arrange them by user rating or popularity. Additionally, we have the notion of pagination, which allows users to quickly switch pages and view additional movies....
