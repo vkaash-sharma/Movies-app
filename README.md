@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+**MOVIES APP**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Movies App that plays a variety of films utilising the Tmdb API, we retrieve the movie data. The information includes the movie's synopsis, rating, popularity, and genre. With the aid of a promise-based library, we retrieve the movie data by sending an asyncronous HTTP request to Axios endpoints.
 
-## Available Scripts
+NAVBAR AND BANNER OF THE WEBPAGE
 
-In the project directory, you can run:
+![1659379247385](image/README/1659379247385.png)
 
-### `npm start`
+At the top of the pae we have navbar which consist of to part one is home page second is Favourites area where user add the favourites movies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**The banner of the movies varies according to the trending page...**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# ADDING MOVIES LIST TO FAVOURITE AREA
 
-### `npm test`
+![1659379471687](image/README/1659379471687.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When we hover over the card containing the information about numerous movies, a button displaying add to favourites and remove from favourites buttons appear, respectively....
 
-### `npm run build`
+# FAVOURITES AREA
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![1659379666233](image/README/1659379666233.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The one we prefer is this. We may arrange the movies by genre, and if you'd prefer, you can arrange them by user rating or popularity. Additionally, we have the notion of pagination, which allows users to quickly switch pages and view additional movies....
