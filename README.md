@@ -4,7 +4,7 @@ Movies App that plays a variety of films utilising the Tmdb API, we retrieve the
 
 NAVBAR AND BANNER OF THE WEBPAGE
 
-![1659379247385](image/README/1659379247385.png)
+![1659379247385](1659379247385.png)
 
 At the top of the pae we have navbar which consist of to part one is home page second is Favourites area where user add the favourites movies
 
